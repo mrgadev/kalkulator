@@ -3,6 +3,7 @@
     margin: 0 auto;
     padding-top: 200px;
     box-shadow: 2.5px 2.5px 7px 7px rgba(0, 0, 0, 0.6);
+    border-radius: 3px;
 }
 
 .calculator-screen {
@@ -15,8 +16,8 @@
     border: none;
     padding: 0 20px;
     box-sizing: border-box;
-    box-shadow: 2.5px 2.5px 7px 7px rgba(0, 0, 0, 0.6);
-    borrder-radius: 2px;
+/*     box-shadow: 2.5px 2.5px 7px 7px rgba(0, 0, 0, 0.6); */
+/*     borrder-radius: 2px; */
 }
 
 .calculator-keys {
@@ -43,7 +44,7 @@ button {
 
 .operator, .equal-sign {
     background-color: lightskyblue;
-    border-radius: 3.5px;
+/*     border-radius: 3.5px; */
 }
 
 button:hover {
