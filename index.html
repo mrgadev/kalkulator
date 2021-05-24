@@ -1,44 +1,46 @@
+<!-- Kamis, 8 Syawwal 1442 | 20 Mei 2021 -->
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-	<meta charset="utf-8">
-	<title>Calculator</title>
-	<link rel="stylesheet" type="text/css" href="stylesheet.css">
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Web Calculator</title>
+	<link rel="stylesheet" href="assets/style.css">
+	<!-- Google Fonts -->
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+	<link href="https://fonts.googleapis.com/css2?family=Nunito:wght@300;700&display=swap" rel="stylesheet">
+
 </head>
 <body>
-  <div class="calculator">
-	  <input type="text" class="calculator-screen" value="0" disabled />
-	  <div class="calculator-keys">
-		<div class="row" >
-		  <button class="all-clear">AC</button>
-		  <button class="percentage">%</button>
-		  <button class="operator" value="/">&divide;</button>
+	<div class="flex-container-column">
+		<div class="display">
+			<h1 id="displayNumber">0</h1>
 		</div>
-		<div class="row" >
-			<button class="number" value="7">7</button>
-			<button class="number" value="8">8</button>
-			<button class="number" value="9">9</button>
-			<button class="operator" value="*">&times;</button>
+		<div class="flex-container-row">
+			<div class="button">7</div>
+			<div class="button">8</div>
+			<div class="button">9</div>
+			<div class="button negative">+/-</div>
 		</div>
-		<div class="row" >
-			<button class="number" value="4">4</button>
-			<button class="number" value="5">5</button>
-			<button class="number" value="6">6</button>
-			<button class="operator" value="-">-</button>
+		<div class="flex-container-row">
+			<div class="button">4</div>
+			<div class="button">5</div>
+			<div class="button">6</div>
+			<div class="button operator">-</div>
 		</div>
-		<div class="row" >
-			<button class="number" value="1">1</button>
-			<button class="number" value="2">2</button>
-			<button class="number" value="3">3</button>
-			<button class="operator" value="+">+</button>
+		<div class="flex-container-row">
+			<div class="button">1</div>
+			<div class="button">2</div>
+			<div class="button">3</div>
+			<div class="button operator">+</div>
 		</div>
-		<div class="row" >
-			<button class="number zero-btn" value="0">0</button>
-			<button class="decimal" value=".">.</button>
-			<button class="equal-sign">=</button>
+		<div class="flex-container-row">
+			<div class="button">0</div>
+			<div class="button clear">Clear</div>
+			<div class="button equals double">=</div>
+			<!-- <div class="button"></div> -->
 		</div>
-	  </div>
-   </div>
-   <script type="text/javascript" src="script.js"></script>
+	</div>
+	<script src="assets/kalkulator.js"></script>
 </body>
 </html>
