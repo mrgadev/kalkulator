@@ -51,12 +51,12 @@ h1 {
 }
 
 /* Hover Style */
-.button:hover {
+.button:hover, .button:active {
 	background-color: dodgerblue;
 	transition: all .3s ease;
 }
 
-.negative:hover, .operator:hover, .clear:hover, .equals:hover {
+.negative:hover, .operator:hover, .clear:hover, .equals:hover, .negative:active, .operator:active, .clear:active, .equals:active {
 	background-color: dimgray;
 	transition: all .3s ease;
 }
