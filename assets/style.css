@@ -65,9 +65,49 @@ h1 {
 	flex-basis: 50%;
 }
 
+/* Histori Kalkulasi */
+.history {
+	width: 80%;
+	margin: 30px auto 0 auto;
+	overflow: scroll;
+}
+
+.history h2 {
+	text-align: center;
+	text-decoration: underline;
+}
+
+table {
+   border-collapse: collapse;
+   border-spacing: 0;
+   width: 100%;
+   border: 1px solid #ddd;
+}
+
+th,
+td {
+	text-align: center;
+	padding: 16px;
+}
+
+th {
+   background-color: deepskyblue;
+   color: white;
+}
+ 
+tr:nth-child(even) {
+   background-color: #d2d2d2;
+}
+
+
+
 /* Responsive Breakpoint */
 @media screen and (max-width: 513px) {
 	.button {
 		padding: 10px;
+	}
+
+	.history {
+		width: 100%;
 	}
 }
